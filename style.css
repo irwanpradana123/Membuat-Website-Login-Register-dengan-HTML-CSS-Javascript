@@ -43,12 +43,14 @@ header {
     height: 3px;
     background: #fff;
     border-radius: 5px;
+    transform-origin: right;
     bottom: -6px;
     transform: scaleX(0);
     transition: transform .5s;
 }
 
 .navigation a:hover::after {
+    transform-origin: left;
     transform: scaleX(1);
 }
 
