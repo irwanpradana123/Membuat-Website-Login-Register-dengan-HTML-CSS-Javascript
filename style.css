@@ -35,6 +35,17 @@ header {
     margin-left: 40px;
 }
 
+.navigation a::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: #fff;
+    border-radius: 5px;
+    bottom: -6px;
+}
+
 .navigation .btnLogin-popup{
     width: 130px;
     height: 50px;
