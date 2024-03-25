@@ -162,3 +162,8 @@ header {
     display: flex;
     justify-content: space-between;
 }
+
+.remember-forgot label input {
+    accent-color: #162938;
+    margin-right: 3px;
+}
