@@ -140,6 +140,10 @@ header {
     background: transparent;
     border: none;
     outline: none;
+    font-size: 1em;
+    color: #162938;
+    font-weight: 600;
+    padding: 0 35px 0 5px;
 }
 
 .input-box .icon {
@@ -148,4 +152,13 @@ header {
     font-size: 1.2em;
     color: #162938;
     line-height: 57px;
+}
+
+.remember-forgot {
+    font-size: .9em;
+    color: #162938;
+    font-weight: 500;
+    margin: -15pz 0 15px;
+    display: flex;
+    justify-content: space-between;
 }
